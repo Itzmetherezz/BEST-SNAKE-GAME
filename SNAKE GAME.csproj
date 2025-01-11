@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>SNAKE_GAME</RootNamespace>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ASSETS\Body.png" />
+    <None Remove="ASSETS\DeadBody.png" />
+    <None Remove="ASSETS\DeadHead.png" />
+    <None Remove="ASSETS\DroidSansMono.ttf" />
+    <None Remove="ASSETS\Empty.png" />
+    <None Remove="ASSETS\Food.png" />
+    <None Remove="ASSETS\Head.png" />
+    <None Remove="ASSETS\icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ASSETS\Body.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ASSETS\DeadHead.png" />
+    <Resource Include="ASSETS\DroidSansMono.ttf" />
+    <Resource Include="ASSETS\Empty.png" />
+    <Resource Include="ASSETS\Food.png" />
+    <Resource Include="ASSETS\Head.png" />
+    <Resource Include="ASSETS\icon.ico" />
+  </ItemGroup>
+
+</Project>
